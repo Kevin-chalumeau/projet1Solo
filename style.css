@@ -165,9 +165,6 @@ footer {
     justify-content: center;
 }
 
-.main-4{
-    background:#009FB7;
-}
 
 /************ page tours by night configuration *********/
 .main-3{
@@ -176,6 +173,19 @@ footer {
 }
 .book-ctn-2{
     background:#4A001F;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/******page loisirs*****/
+
+.main-4{
+    background-color: #43C59E;
+    padding: 20px;
+}
+.book-ctn-4{
+    background-color: #43C59E;
     padding: 20px;
     display: flex;
     flex-direction: row;

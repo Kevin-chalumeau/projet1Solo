@@ -118,13 +118,6 @@ footer {
     background:#009FB7;
     padding: 20px; 
 }
-.book-ctn2{
-    background-color: #4A001F;
-    padding: 20px;
-    display: flex;
-    flex-direction: row
-}
-
 .book-ctn {
     background:#009FB7;
     padding: 20px;
@@ -155,9 +148,4 @@ footer {
 }
 .p-2{
     width: 100%;
-}
-/************ page tours by night configuration *********/
-.main-3{
-    background:#009FB7;
-    padding: 20px; 
 }

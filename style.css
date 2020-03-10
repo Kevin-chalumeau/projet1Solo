@@ -39,11 +39,11 @@ li:hover{
     background-color: rgba(10, 10, 10, 0.85);
 }
 a {
-    color: #ffffff;
+    color: hsl(0, 54%, 97%);
     text-decoration: none;
 }
 a:hover {
-    color: #ffffff;
+    color: rgb(7, 7, 243);
     text-decoration: underline;
 
 }
@@ -152,6 +152,8 @@ footer {
 }
 .p-2{
     width: 100%;
+    font-size: 25px;
+    line-height: 140%;
 }
 
 /************ page contacts **********/
@@ -165,9 +167,6 @@ footer {
     justify-content: center;
 }
 
-.main-4{
-    background:#009FB7;
-}
 
 /************ page tours by night configuration *********/
 .main-3{
@@ -179,4 +178,20 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: row;
+}
+
+/******page loisirs*****/
+
+.main-4{
+    background-color: #43C59E;
+    padding: 20px;
+}
+.book-ctn-4{
+    background-color: #43C59E;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+section a{
+    color: red;
 }

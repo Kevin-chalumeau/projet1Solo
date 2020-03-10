@@ -39,11 +39,11 @@ li:hover{
     background-color: rgba(10, 10, 10, 0.85);
 }
 a {
-    color: #ffffff;
+    color: hsl(244, 93%, 47%);
     text-decoration: none;
 }
 a:hover {
-    color: #ffffff;
+    color: rgb(243, 243, 245);
     text-decoration: underline;
 
 }

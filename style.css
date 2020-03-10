@@ -118,6 +118,12 @@ footer {
     background:#009FB7;
     padding: 20px; 
 }
+.main-3{
+    background-color:
+}
+.main-4 {
+    background-color: #43C59E;
+}
 .book-ctn {
     background:#009FB7;
     padding: 20px;
@@ -151,13 +157,12 @@ footer {
 }
 
 /************ page contacts **********/
-
-.main-4{
+.main-5 {
     background:#009FB7;
+    padding: 20px;
 }
-
-/************ page tours by night configuration *********/
-.main-3{
-    background:#009FB7;
-    padding: 20px; 
+.ctn-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

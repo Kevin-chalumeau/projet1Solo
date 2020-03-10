@@ -118,13 +118,6 @@ footer {
     background:#009FB7;
     padding: 20px; 
 }
-.book-ctn2{
-    background-color: #4A001F;
-    padding: 20px;
-    display: flex;
-    flex-direction: row
-}
-
 .book-ctn {
     background:#009FB7;
     padding: 20px;
@@ -156,6 +149,8 @@ footer {
 .p-2{
     width: 100%;
 }
+<<<<<<< HEAD
+=======
 
 /************ page contacts **********/
 
@@ -164,3 +159,4 @@ footer {
     background:#009FB7;
     padding: 20px; 
 }
+>>>>>>> 6ee3929b51f24c7266900c4cef76ae05a5489f10

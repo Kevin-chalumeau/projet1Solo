@@ -44,7 +44,7 @@ a {
 }
 a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    
 
 }
 h1 {
@@ -103,6 +103,12 @@ nav {
     padding: 20px;
 }
 .txt-cadre{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: rgba(0, 0, 0 );
+    padding: 10px;
     display: flex;
     justify-content: center;
 }

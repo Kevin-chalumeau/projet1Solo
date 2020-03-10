@@ -114,7 +114,10 @@ footer {
 }
 
 /************ page sites touristiques configuration *********/
-
+.main-2{
+    background:#009FB7;
+    padding: 20px; 
+}
 .book-ctn {
     background:#009FB7;
     padding: 20px;

@@ -39,11 +39,11 @@ li:hover{
     background-color: rgba(10, 10, 10, 0.85);
 }
 a {
-    color: hsl(357, 98%, 49%);
+    color: hsl(0, 54%, 97%);
     text-decoration: none;
 }
 a:hover {
-    color: rgb(243, 243, 245);
+    color: rgb(7, 7, 243);
     text-decoration: underline;
 
 }
@@ -191,4 +191,7 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: row;
+}
+section a{
+    color: red;
 }

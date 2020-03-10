@@ -146,8 +146,12 @@ footer {
 
 .p-2{
     width: 100%;
-    font-size: 25px;
+    height: 100%;
     line-height: 140%;
+}
+.art-align{
+    display: flex;
+    flex-direction: column;
 }
 
 /************ page contacts **********/

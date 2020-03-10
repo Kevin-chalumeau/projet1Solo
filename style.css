@@ -36,7 +36,7 @@ li {
     
 }
 li:hover{
-background-color: #cccccc;
+background-color: rgba(10, 10, 10, 0.85);
 }
 a {
     color: #ffffff;
@@ -49,6 +49,16 @@ a:hover {
 }
 h1 {
     text-align: center
+}
+h2{
+    text-align: center
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+   width: 50%;
 }
 /************ body configuration *********/
 
@@ -67,3 +77,32 @@ header {
 nav {
     background-color: rgba(0, 0, 0, 0.57);
 }
+/** body section **/
+.main-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Touristique {
+    background-color: #009FB7;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+.Toursbynight {
+    background-color: #4A001F;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+.Loisirs {
+    background-color: #43C59E;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+.txt-cadre{
+    display: flex;
+    justify-content: center;
+}
+

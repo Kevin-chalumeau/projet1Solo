@@ -118,6 +118,13 @@ footer {
     background:#009FB7;
     padding: 20px; 
 }
+.book-ctn2{
+    background-color: #4A001F;
+    padding: 20px;
+    display: flex;
+    flex-direction: row
+}
+
 .book-ctn {
     background:#009FB7;
     padding: 20px;
@@ -139,9 +146,21 @@ footer {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.book-img:hover {
+    width: 100%;
+    height: 65%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: inset 0px 18px 34px 5px rgba(203,197,255,0.49);
+}
 .p-2{
     width: 100%;
 }
 
 /************ page contacts **********/
 
+/************ page tours by night configuration *********/
+.main-3{
+    background:#009FB7;
+    padding: 20px; 
+}

@@ -56,6 +56,7 @@ h2{
 p{
     color: #ffffff;
     text-align: center;
+   width: 50%;
 }
 /************ body configuration *********/
 
@@ -98,5 +99,8 @@ nav {
     height: 350px;
     padding: 20px;
 }
-
+.txt-cadre{
+    display: flex;
+    justify-content: center;
+}
 

@@ -75,7 +75,11 @@ nav {
     background-color: rgba(0, 0, 0, 0.57);
 }
 /** body section **/
-
+.main-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .Touristique {
     background-color: #009FB7;
     width: 100%;

@@ -139,13 +139,13 @@ footer {
 }
 .book-img {
     width: 100%;
-    height: 50%;
+    height: 65%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .book-img:hover {
     width: 100%;
-    height: 50%;
+    height: 65%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: inset 0px 18px 34px 5px rgba(203,197,255,0.49);

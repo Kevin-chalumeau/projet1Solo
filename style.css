@@ -8,6 +8,9 @@ section Toursbynight background color #32213A
  font <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 /* font-family: 'Poppins', sans-serif; */
 /************ General configuration *********/
+ * {
+    font-size: 1.05em;
+}
 html, body {
     box-sizing: border-box;
     margin: 0;
@@ -28,10 +31,10 @@ li {
     padding: 10px;
 }
 li:hover{
-    background-color: rgba(10, 10, 10, 0.85);
+    background-color: #777171;
 }
 a {
-    color: hsl(0, 54%, 97%);
+    color: rgb(85, 81, 81);
     text-decoration: none;
 }
 a:hover {
@@ -58,7 +61,7 @@ p{
 /************ body configuration *********/
 /** header section **/
 header {
-    background:  center no-repeat url("https://www.tours.fr/uploads/Image/f4/IMF_ACCROCHE/GAB_TOURS/28_388_Vue-aerienne-Tours.jpg");
+    background-color: #069E2D;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,7 +69,7 @@ header {
     height: 250px;
 }
 nav {
-    background-color: rgba(0, 0, 0, 0.57);
+    background-color: rgb(0, 0, 0);
 }
 /** body section **/
 .main-cover {

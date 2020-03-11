@@ -61,7 +61,7 @@ p{
 /************ body configuration *********/
 /** header section **/
 header {
-    background:  center no-repeat url("https://www.tours.fr/uploads/Image/f4/IMF_ACCROCHE/GAB_TOURS/28_388_Vue-aerienne-Tours.jpg");
+    background-color: #069E2D;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

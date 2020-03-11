@@ -31,11 +31,10 @@ li {
     padding: 10px;
 }
 li:hover{
-    background-color: #777171;
+    background-color: #01333a;
 }
 a {
-    color: rgb(85, 81, 81);
-    text-decoration: none;
+    color: rgb(48, 50, 70);
 }
 a:hover {
     color: yellow;
@@ -73,6 +72,9 @@ nav {
 }
 nav ul {
     justify-content: center;
+}
+nav a {
+    text-decoration: none;
 }
 /** body section **/
 .main-cover {
@@ -183,7 +185,7 @@ footer {
     flex-direction: row;
 }
 section a{
-    color:lightblue;
+    color:rgb(37, 79, 94);
 }
 /************ page contacts **********/
 .main-5 {

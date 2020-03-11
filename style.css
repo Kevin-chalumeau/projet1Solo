@@ -43,7 +43,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(7, 7, 243);
+    color: yellow;
     text-decoration: underline;
 
 }
@@ -146,8 +146,8 @@ footer {
 
 .p-2{
     width: 100%;
-    height: 100%;
-    line-height: 140%;
+    height: 10%;
+    line-height: 100%;
 }
 .art-align{
     display: flex;

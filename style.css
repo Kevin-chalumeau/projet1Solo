@@ -191,6 +191,11 @@ section a{
         flex-direction: column;
         justify-content: center;
     }
+    .book-ctn-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .main-2{
         width:100%;
         text-align: center;
@@ -207,12 +212,29 @@ section a{
         justify-content: center;
         align-items: center;
     }
+    .main-4{
+        width:100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
     .book-ctn-2{
         display: flex;
         flex-direction: column;
         justify-content: center;
 
     }
+    .art-cadre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    
+    
 }
 
 

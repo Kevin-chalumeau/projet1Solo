@@ -179,7 +179,7 @@ section a{
     line-height: 100%;
 }
 @media screen and (max-width: 940px){
-    #hidden{
+    .hidden{
         display: none;
     }
     header{

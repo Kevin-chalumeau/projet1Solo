@@ -71,6 +71,9 @@ header {
 nav {
     background-color: rgb(0, 0, 0);
 }
+nav ul {
+    justify-content: center;
+}
 /** body section **/
 .main-cover {
     display: flex;

@@ -184,12 +184,13 @@ section a{
     ul {
         display: flex;
         justify-content: center;
+        flex-direction: row;
+        transform: translate(-20px);
 
     }
     .book-ctn{
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
     .book-ctn-4{
         display: flex;
@@ -233,8 +234,9 @@ section a{
         justify-content: center;
         margin-left: 100px;
     }
-    
-    
+    li{
+        padding: 3px;
+    }
 }
 
 

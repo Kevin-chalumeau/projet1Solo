@@ -34,7 +34,7 @@ li:hover{
     background-color: #01333a;
 }
 a {
-    color: rgb(196, 14, 44);
+    color: rgb(#ffffff);
     text-decoration: none;
 }
 a:hover {
@@ -58,7 +58,7 @@ h3{
     margin: 0%;
 }
 p{
-    color: #ffffff;
+    color: black;
     text-align: center;
     width: 50%;
 }
@@ -92,19 +92,19 @@ nav a {
     justify-content: center;
 }
 .Touristique {
-    background-color: #009FB7;
+    background-color: #efefef;
     width: 100%;
     height: 350px;
     padding: 20px;
 }
 .Toursbynight {
-    background-color: #4A001F;
+    background-color: #efefef;
     width: 100%;
     height: 350px;
     padding: 20px;
 }
 .Loisirs {
-    background-color: #43C59E;
+    background-color: #efefef;
     width: 100%;
     height: 350px;
     padding: 20px;
@@ -115,13 +115,18 @@ nav a {
 }
 footer {
     background-color: rgba(0, 0, 0 );
+    color: white;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
+
+footer p {
+    color:white;
+}
 /************ page sites touristiques configuration *********/
 .main-2{
-    background:#009FB7;
+    background:#efefef;
     padding: 20px; 
 }
 
@@ -136,7 +141,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-right: 10px;
-    background: #a89d999c;
+    background: #efefef;
     display: grid;
     grid-template-rows: 65% 35%;
    
@@ -147,7 +152,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-right: 10px;
-    background: #a89d999c;
+    background: #efefef;
     display: grid;
     grid-template-rows: 65% 35%;
     padding-bottom: 5%;
@@ -168,7 +173,7 @@ footer {
 }
 /************ page tours by night configuration *********/
 .main-3{
-    background: #4A001F;
+    background: #efefef;
     padding: 20px; 
 }
 .book-ctn-2{
@@ -178,7 +183,7 @@ footer {
 }
 /******page loisirs*****/
 .main-4{
-    background-color: #43C59E;
+    background-color: #efefef;
     padding: 20px;
 }
 .book-ctn-4{
@@ -191,7 +196,7 @@ section a{
 }
 /************ page contacts **********/
 .main-5 {
-    background:#009FB7;
+    background:#efefef;
     padding: 5%;
 }
 .p-3{
@@ -212,10 +217,9 @@ text-align: left;
 }
 @media screen and (max-width: 940px){
     header{
-        background:  center no-repeat url("https://www.tours.fr/uploads/Image/f4/IMF_ACCROCHE/GAB_TOURS/28_388_Vue-aerienne-Tours.jpg");
+        background:  center no-repeat url('https://cdn.pixabay.com/photo/2020/02/08/12/21/paddle-4829965_960_720.jpg');     
         display: flex;
         width:auto;
-        
     }
     li{
         display: flex;
@@ -224,7 +228,7 @@ text-align: left;
         
     }
     ul {
-        display: flex;;
+        display: flex;
         justify-content: center;
         flex-direction: column;
         transform: translate(-20px);

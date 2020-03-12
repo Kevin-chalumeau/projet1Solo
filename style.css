@@ -208,7 +208,7 @@ section a{
 form{
     display: flex;
     flex-direction: column;
-    width: auto; 
+    justify-content: center;
 }
 input{
     justify-content: left;

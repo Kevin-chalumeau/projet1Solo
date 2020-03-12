@@ -9,17 +9,19 @@
     </head>
 
     <body>
+        <a href="index.html">
         <header class="header">
-            <h1><a href="index.html">Ville de Tours</a></h1>
-            <nav class="nav-header">
-                <ul >
-                    <li><a href="sitestouristiques.html">Sites touristiques</a></li>
-                    <li><a href="toursbynight.html">Tours by night</a></li>
-                    <li><a href="loisirs.html">Loisirs</a></li>
-                    <li class="hidden"><a href="contacts.html">Contacts</a></li>  
-                </ul>
-            </nav>
+            <h1>Ville de Tours</h1>
         </header>
+        </a>
+        <nav class="nav-header">
+            <ul >
+                <li><a href="sitestouristiques.html">Sites touristiques</a></li>
+                <li><a href="toursbynight.html">Tours by night</a></li>
+                <li><a href="loisirs.html">Loisirs</a></li>
+                <li class="hidden"><a href="contacts.html">Contacts</a></li>  
+            </ul>
+        </nav>
         <main class="main-5">
             
             <section class="ctn-class">
@@ -30,10 +32,30 @@
                     <p class="p-3"><a href="https://www.tours.fr/">Ville de Tours</a></p> 
 
                     <h2>Contactez les rédacteurs du site</h2>
-                    <p class="p-3">Kévin 🤩: 555-556-777</p>
+                    <p class="p-3">Kévin 🤩 : 555-556-777</p>
                     <p class="p-3">Elise 🐿 : 555-557-888</p>
                     <p class="p-3">Moshtagh 🙉 : 555-559-767</p>
                     <p class="p-3">Benjamin 🤪 : 555-557-678</p>
+            </section>
+            <section>
+                <h2>Expérience personnalisée</h2>
+                <p class="p-3">Complétez ce formulaire afin que nous puissions vous proposer une expérience unique lors de votre séjour à Tours</p>
+                <form >
+                    <p class="sexe"><label for="sexe">Sexe : </label><br>
+	                    Homme : <input type="radio" name="sex" /><br>
+	                    Femme : <input type="radio" name="sex" />
+                    </p>
+                    <label for="fname">Nom : </label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Prenom : </label><br>
+                    <input type="text" id="lname" name="lname"><br> 
+                    <label for="email" >Mail</label> 
+                    <input type="text" id="email" name="email">
+                    <label for="story">Décrivez nous vos centres d'intérêts : </label><br>
+                    <textarea id="story" name="story" rows="7" cols="40"></textarea><br>
+                    <input type="submit" name="envoyer">
+                    
+                </form>
             </section>
         
         </main>

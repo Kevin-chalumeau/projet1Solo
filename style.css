@@ -207,7 +207,7 @@ section a{
 form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: auto;
 }
 @media screen and (max-width: 940px){
     .hidden{

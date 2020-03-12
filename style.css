@@ -35,10 +35,12 @@ li:hover{
 }
 a {
     color: rgb(180, 14, 196);
+    text-decoration: none;
 }
 a:hover {
     color: yellow;
-    text-decoration: underline;
+    text-decoration: none;
+    
 }
 h1 {
     text-align: center;
@@ -48,19 +50,22 @@ h2{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
+    text-decoration: underline;
 }
+
 h3{
     padding: 5%;
 }
 p{
     color: #ffffff;
     text-align: center;
-     width: 50%;
+    width: 50%;
 }
+
 /************ body configuration *********/
 /** header section **/
 header {
-    background-color: #069E2D;
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/08/12/21/paddle-4829965_960_720.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -131,10 +131,9 @@ footer {
     flex-direction: row
 }
 .art-cadre {
-    border: 2px solid #171515;
-    border-radius: 20px;
+    border: 1px solid #171515;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin-right: 10px;
     background: #a89d999c;
@@ -143,10 +142,9 @@ footer {
    
 }
 .art-cadre-2 {
-    border: 2px solid #171515;
-    border-radius: 20px;
+    border: 1px solid #171515;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin-right: 10px;
     background: #a89d999c;
@@ -157,14 +155,10 @@ footer {
 .book-img {
     width: 100%;
     height: 85%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 .book-img-s {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 .grid-box {
     display: grid;
@@ -232,7 +226,7 @@ text-align: left;
     ul {
         display: flex;;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         transform: translate(-20px);
 
     }
@@ -240,12 +234,14 @@ text-align: left;
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding: 0;
         
     }
     .book-ctn-4{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
     }
     .main-2{
         width:100%;
@@ -254,6 +250,7 @@ text-align: left;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
     .main-3{
         width:100%;
@@ -262,6 +259,7 @@ text-align: left;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
     .main-4{
         width:100%;
@@ -270,25 +268,25 @@ text-align: left;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
 
     }
     .book-ctn-2{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
 
     }
     .art-cadre{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 100px;
     }
     .art-cadre-2{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 100px;
     }
     li{
         padding: 3px;

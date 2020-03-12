@@ -217,16 +217,20 @@ input{
 text-align: left;
 }
 @media screen and (max-width: 940px){
-    .hidden{
-        display: none;
-    }
     header{
         background:  center no-repeat url("https://www.tours.fr/uploads/Image/f4/IMF_ACCROCHE/GAB_TOURS/28_388_Vue-aerienne-Tours.jpg");
         display: flex;
         width:auto;
+        
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        flex-direction: initial;
+        
     }
     ul {
-        display: flex;
+        display: flex;;
         justify-content: center;
         flex-direction: row;
         transform: translate(-20px);
@@ -235,6 +239,8 @@ text-align: left;
     .book-ctn{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        
     }
     .book-ctn-4{
         display: flex;

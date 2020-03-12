@@ -34,7 +34,11 @@ li:hover{
     background-color: #01333a;
 }
 a {
+<<<<<<< HEAD
     color: rgb(#ffffff);
+=======
+    color: rgb(243, 236, 238);
+>>>>>>> 711d536b08b2fb7f38fd3f994405c14caafa47a7
     text-decoration: none;
 }
 a:hover {

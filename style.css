@@ -51,7 +51,6 @@ h2{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
-    text-decoration: underline;
 }
 
 h3{
@@ -93,22 +92,24 @@ nav a {
     justify-content: center;
 }
 .Touristique {
-    background-color: #efefef;
+    background-color: #9e9595;
     width: 100%;
     height: 350px;
-    padding: 20px;
+    padding: 20px auto;
+   
 }
 .Toursbynight {
     background-color: #efefef;
     width: 100%;
     height: 350px;
-    padding: 20px;
+    padding: 20px auto;
 }
 .Loisirs {
-    background-color: #efefef;
+    background-color: #9e9595;
     width: 100%;
     height: 350px;
-    padding: 20px;
+    padding: 20px auto;
+   
 }
 .txt-cadre{
     display: flex;
@@ -125,6 +126,15 @@ footer {
 footer p {
     color:white;
 }
+.link-T {
+    color: #000000;
+    text-decoration: none;
+}
+.link-T:hover {
+    color: #2b2d4b;
+    text-decoration: none;
+}
+
 /************ page sites touristiques configuration *********/
 .main-2{
     background:#efefef;
@@ -295,6 +305,31 @@ text-align: left;
     }
     li{
         padding: 3px;
+    }
+    .Touristique {
+        background-color: #9e9595;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto ;
+    }
+    .Toursbynight {
+        background-color: #efefef;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto;
+    }
+    .Loisirs {
+        background-color: #9e9595;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto ;
+    }
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-top: 15%;
     }
 }
 

@@ -60,7 +60,7 @@ h3{
 p{
     color: black;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 
 /************ body configuration *********/
@@ -332,6 +332,7 @@ text-align: left;
         text-decoration: underline;
         margin-top: 15%;
     }
+
 }
 
 

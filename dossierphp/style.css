@@ -1,0 +1,341 @@
+/************section css  *********/
+/************ mise en page et les syles à respecter  *********/
+/* section sites touristiques background color #009FB7
+section Toursbynight background color #32213A
+ section Loisirs background color #43C59E
+ bandeau nav background color black
+ color white font color 
+ font <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+/* font-family: 'Poppins', sans-serif; */
+/************ General configuration *********/
+ * {
+    font-size: 1.05em;
+}
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , Helvetica, sans-serif;
+    background: #efefefdb;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+li:hover{
+    background-color: #01333a;
+}
+a {
+    color: rgb(243, 236, 238);
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h3{
+    padding: 0%;
+    margin: 0%;
+}
+p{
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+/************ body configuration *********/
+/** header section **/
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/08/12/21/paddle-4829965_960_720.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 100% auto;
+    height: 450px;
+    background-position: center;
+}
+nav {
+    background-color: rgb(0, 0, 0);
+}
+nav ul {
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+nav a {
+    text-decoration: none;
+}
+/** body section **/
+.main-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Touristique {
+    background-color: #9e9595;
+    width: 100%;
+    height: 350px;
+    padding: 20px auto;
+   
+}
+.Toursbynight {
+    background-color: #efefef;
+    width: 100%;
+    height: 350px;
+    padding: 20px auto;
+}
+.Loisirs {
+    background-color: #9e9595;
+    width: 100%;
+    height: 350px;
+    padding: 20px auto;
+   
+}
+.txt-cadre{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: rgba(0, 0, 0 );
+    color: white;
+    padding: 10px;
+    align-items: center;
+    bottom:0 ;
+    width: 100%;
+}
+
+footer p {
+    color:white;
+}
+.link-T {
+    color: #000000;
+    text-decoration: none;
+}
+.link-T:hover {
+    color: #2b2d4b;
+    text-decoration: none;
+}
+
+/************ page sites touristiques configuration *********/
+.main-2{
+    background:#efefef;
+    padding: 20px; 
+}
+
+.book-ctn {
+    padding: 20px;
+    display: flex;
+    flex-direction: row
+}
+.art-cadre {
+    border: 1px solid #171515;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    background: #efefef;
+    display: grid;
+    grid-template-rows: 65% 35%;
+   
+}
+.art-cadre-2 {
+    border: 1px solid #171515;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    background: #efefef;
+    display: grid;
+    grid-template-rows: 65% 35%;
+    padding-bottom: 5%;
+}
+.book-img {
+    width: 100%;
+    height: 85%;
+}
+.book-img-s {
+    width: 100%;
+    height: 100%;
+}
+.grid-box {
+    display: grid;
+}
+.p-2{
+    width: 100%;  
+}
+/************ page tours by night configuration *********/
+.main-3{
+    background: #efefef;
+    padding: 20px; 
+}
+.book-ctn-2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+/******page loisirs*****/
+.main-4{
+    background-color: #efefef;
+    padding: 20px;
+}
+.book-ctn-4{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+section a{
+    color:rgb(37, 79, 94);
+}
+/************ page contacts **********/
+.main-5 {
+    background:#efefef;
+    padding: 5%;
+}
+.p-3{
+    width: 100%;
+    height: 10%;
+    line-height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    justify-content: left;
+}
+.sexe{
+text-align: left;
+}
+@media screen and (max-width: 940px){
+    header{
+        background:  center no-repeat url('https://cdn.pixabay.com/photo/2020/02/08/12/21/paddle-4829965_960_720.jpg');     
+        display: flex;
+        width:auto;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        flex-direction: initial;
+        
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        transform: translate(-20px);
+
+    }
+    .book-ctn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        
+    }
+    .book-ctn-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .main-2{
+        width:100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .main-3{
+        width:100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .main-4{
+        width:100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+    .book-ctn-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+
+    }
+    .art-cadre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .art-cadre-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    li{
+        padding: 3px;
+    }
+    .Touristique {
+        background-color: #9e9595;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto ;
+    }
+    .Toursbynight {
+        background-color: #efefef;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto;
+    }
+    .Loisirs {
+        background-color: #9e9595;
+        width: 100%;
+        height: 400px;
+        padding: 5% auto ;
+    }
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-top: 15%;
+    }
+
+}
+
+
+
+
+
